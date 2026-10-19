@@ -26,7 +26,7 @@ export default function Home() {
         <p className="note">*good things start with one spark. let’s make yours.</p>
         <div className="socials">
           <span aria-label="Telegram"><img src="/telegram.svg" alt="" width="35" height="35" /></span>
-          <span aria-label="Discord"><img src="/discord.svg" alt="" width="35" height="35" /></span>
+          <span aria-label="Twitter/X"><img src="/twitter.svg" alt="" width="35" height="35" /></span>
         </div>
       </div>
     </footer>
