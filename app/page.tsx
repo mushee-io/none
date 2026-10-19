@@ -1,5 +1,4 @@
 import FooterBackground from './footer-background';
-import BrandLogo from './brand-logo';
 
 export default function Home() {
   return (
@@ -7,7 +6,7 @@ export default function Home() {
       <FooterBackground />
       <div className="jobs">
         <span className="tag">have a fresh idea?</span>
-        <span className="headline job-title">imagination<br />meets craft</span>
+        <span className="headline job-title">gaming on<br />Ultra</span>
         <div className="footer-nav">
           <span>Made</span>
           <span>Story</span>
@@ -15,20 +14,19 @@ export default function Home() {
           <span>Say hey</span>
         </div>
       </div>
-      <div className="logo" role="img" aria-label="Studio logo">
-        <BrandLogo />
+      <div className="logo" role="img" aria-label="none logo">
+        <span className="brand-wordmark">none</span>
       </div>
       <div className="contact">
         <span className="tag">say hey</span>
         <div className="headline contact-links">
-          <span>let’s team up!</span>
-          <span>bring us your idea*</span>
+          <span>gaming on</span>
+          <span>Discord</span>
         </div>
         <p className="note">*good things start with one spark. let’s make yours.</p>
         <div className="socials">
-          <span aria-label="LinkedIn"><img src="/linkedin.svg" alt="" width="35" height="35" /></span>
-          <span aria-label="Instagram"><img src="/instagram.svg" alt="" width="35" height="35" /></span>
-          <span aria-label="TikTok"><img src="/tiktok.svg" alt="" width="35" height="35" /></span>
+          <span aria-label="Telegram"><img src="/telegram.svg" alt="" width="35" height="35" /></span>
+          <span aria-label="Discord"><img src="/discord.svg" alt="" width="35" height="35" /></span>
         </div>
       </div>
     </footer>
