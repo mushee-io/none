@@ -15,18 +15,19 @@ export default function Home() {
         </div>
       </div>
       <div className="logo" role="img" aria-label="none logo">
-        <span className="brand-wordmark">none</span>
+        <img className="brand-image" src="/none-wordmark.svg" alt="" />
+        <span className="brand-subtitle">gaming on Discord</span>
       </div>
       <div className="contact">
         <span className="tag">say hey</span>
         <div className="headline contact-links">
-          <span>gaming on</span>
-          <span>Discord</span>
+          <span>let’s team up!</span>
+          <span>bring us your idea*</span>
         </div>
         <p className="note">*good things start with one spark. let’s make yours.</p>
         <div className="socials">
           <span aria-label="Telegram"><img src="/telegram.svg" alt="" width="35" height="35" /></span>
-          <span aria-label="Twitter/X"><img src="/twitter.svg" alt="" width="35" height="35" /></span>
+          <span aria-label="Discord"><img src="/discord.svg" alt="" width="35" height="35" /></span>
         </div>
       </div>
     </footer>
